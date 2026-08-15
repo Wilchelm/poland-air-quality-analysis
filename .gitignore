@@ -1,0 +1,33 @@
+# ==============================================================================
+# 1️⃣ PLIKI LOKALNE I TYMCZASOWE POWER BI
+# ==============================================================================
+# Ignorowanie plików cache oraz lokalnych ustawień użytkownika Power BI
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+.platform/
+**/item.config.json
+
+# ==============================================================================
+# 2️⃣ FILTRY DLA KATALOGU 'DANE'
+# ==============================================================================
+# Ignorowanie plików CSV wygenerowanych z danych GIOŚ
+dane/*.csv
+
+# Ignorowanie pobranego pliku Excel z metadanymi stacji
+dane/Metadane oraz kody stacji i stanowisk pomiarowych.xlsx
+
+# Dopuszczanie skryptów Pythona, pliku cmd oraz słownika Excel
+!dane/*.py        
+!dane/run.cmd     
+!dane/Typ_pomiary.xlsx  
+
+# ==============================================================================
+# 3️⃣ STRUKTURA KATALOGU NA PLIKI ZIP
+# ==============================================================================
+# Ignorowanie wszystkich plików wewnątrz folderu na ZIP-y
+dane/Tutaj_umiesc_pliki_ZIP_z_danymi/*
+
+# Dopuszczanie pliku .gitkeep w celu zachowania pustego folderu w Git
+!dane/Tutaj_umiesc_pliki_ZIP_z_danymi/.gitkeep
+
+*.html

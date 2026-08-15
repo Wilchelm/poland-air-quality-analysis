@@ -1,0 +1,87 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "c55bd184b22b6bb03649",
+  "position": {
+    "x": 0,
+    "y": 608.41328413284134,
+    "z": 3000,
+    "height": 111.58671586715867,
+    "width": 1083.9852398523985,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "treemap",
+    "query": {
+      "queryState": {
+        "Group": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataPomiaru"
+                    }
+                  },
+                  "Property": "KwartałTekst"
+                }
+              },
+              "queryRef": "DataPomiaru.KwartałTekst",
+              "nativeQueryRef": "KwartałTekst",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FaktPomiary"
+                    }
+                  },
+                  "Property": "SredniaWartoscPomiary"
+                }
+              },
+              "queryRef": "FaktPomiary.SredniaWartoscPomiary",
+              "nativeQueryRef": "SredniaWartoscPomiary"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

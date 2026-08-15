@@ -1,0 +1,7 @@
+expression FolderPath = "B:\analiza-jakosci-powietrza-w-polsce-2013-2023" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 4a6dc88d-b805-472b-8848-04aa220d79df
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Text
+

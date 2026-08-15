@@ -1,0 +1,36 @@
+relationship 79f9c1bf-c6be-42f2-acf5-cd6fa99c86e3
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DataPomiaru.DataPomiaru
+	toColumn: LocalDateTable_52c8b5a3-bf91-4098-94d8-44ba51ca9e20.Date
+
+relationship 983f1474-e90d-4d7e-a601-f20d44fe9551
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Pomiary.DataPomiaru
+	toColumn: LocalDateTable_9926ad86-7fc2-479e-ae4d-e3941c754cfc.Date
+
+relationship db0ff6b7-676d-42f9-b7d6-49cb0eeb97d9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: StacjePomiarowe.DataUruchomienia
+	toColumn: LocalDateTable_96a5f221-c6e6-4ea1-be5d-4e0c7290b2cb.Date
+
+relationship 4bf78153-61d5-4090-b502-f8146fb14b19
+	joinOnDateBehavior: datePartOnly
+	fromColumn: StacjePomiarowe.DataZamkniecia
+	toColumn: LocalDateTable_ae597791-7a0c-4c79-9964-da1de9e0c9a9.Date
+
+relationship AutoDetected_fc86470a-398a-4b4f-9f98-c7cc50f481e4
+	fromColumn: FaktPomiary.Opis
+	toColumn: TypPomiaru.Opis
+
+relationship AutoDetected_96ae1818-0d36-467c-abe7-416a6909eaec
+	fromColumn: FaktPomiary.KodStacji
+	toColumn: StacjePomiarowe.KodStacji
+
+relationship 34be8bc3-3a6f-47f7-b556-44994e48dc39
+	fromColumn: FaktPomiary.DataPomiaru
+	toColumn: DataPomiaru.DataPomiaru
+
+relationship 421183dd-6f47-1c16-fcb1-fae0ed4d41c8
+	fromColumn: FaktPomiary.IdPomiaru
+	toColumn: Pomiary.IdPomiaru
+

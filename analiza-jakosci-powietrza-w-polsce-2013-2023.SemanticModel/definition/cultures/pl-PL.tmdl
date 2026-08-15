@@ -1,0 +1,6594 @@
+cultureInfo pl-PL
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "data_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data pomiaru": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "DataPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.8613
+			          }
+			        },
+			        {
+			          "information pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.data_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "DataPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data_pomiaru.data_pomiaru.hierarchia_dat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarchia dat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.data_pomiaru.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.data_pomiaru.kwartał": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Kwartał"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.data_pomiaru.miesiąc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Miesiąc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.data_pomiaru.dzień": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Dzień"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.dzien": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "Dzien"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzien": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.dzien_tygodnia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "DzienTygodnia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzien tygodnia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DzienTygodnia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.kwartal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "Kwartal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartal": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.tydzien": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "Tydzien"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tydzien": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.miesiac": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "Miesiac"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiac": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.kwartał_tekst": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "KwartałTekst"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał tekst": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KwartałTekst": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "data_pomiaru.miesiac_liczba": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataPomiaru",
+			          "ConceptualProperty": "MiesiacLiczba"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiac liczba": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MiesiacLiczba": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "NrMiesiaca": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "typ_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TypPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "typ pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TypPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "typ_pomiaru.typ_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TypPomiaru",
+			          "ConceptualProperty": "TypPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "typ pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "typ pomiaru name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TypPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "typ_pomiaru.opis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TypPomiaru",
+			          "ConceptualProperty": "Opis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "opis": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "typ_pomiaru.jednostka": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TypPomiaru",
+			          "ConceptualProperty": "Jednostka"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jednostka": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "typ_pomiaru.okres_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TypPomiaru",
+			          "ConceptualProperty": "OkresPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "okres pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "okre pomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "OkresPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "typ_pomiaru.normy_WHO": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TypPomiaru",
+			          "ConceptualProperty": "NormyWHO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "normy WHO": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NormyWHO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pomiary": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.id_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "ConceptualProperty": "IdPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IdPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.data_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "ConceptualProperty": "DataPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pomiary.data_pomiaru.hierarchia_dat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarchia dat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.data_pomiaru.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.data_pomiaru.kwartał": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Kwartał"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.data_pomiaru.miesiąc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Miesiąc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.data_pomiaru.dzień": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "VariationSource": "DataPomiaru",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Dzień"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data pomiaru dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record pomiaru dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.typ_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "ConceptualProperty": "TypPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "typ pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TypPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.wartosc_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "ConceptualProperty": "WartoscPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wartosc pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WartoscPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pomiary.kod_stacji": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pomiary",
+			          "ConceptualProperty": "KodStacji"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kod stacji": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KodStacji": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stacje pomiarowe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StacjePomiarowe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.nr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "Nr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.kod_stacji": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "KodStacji"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kod stacji": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KodStacji": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.kod_miedzynarodowy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "KodMiedzynarodowy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kod miedzynarodowy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KodMiedzynarodowy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.nazwa_stacji": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "NazwaStacji"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nazwa stacji": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NazwaStacji": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.stary_kod_stacji": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "StaryKodStacji"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stary kod stacji": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StaryKodStacji": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_uruchomienia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "DataUruchomienia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data uruchomienia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataUruchomienia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information uruchomienia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact uruchomienia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info uruchomienia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic uruchomienia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document uruchomienia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure uruchomienia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record uruchomienia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stacje_pomiarowe.data_uruchomienia.hierarchia_dat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataUruchomienia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarchia dat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_uruchomienia.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataUruchomienia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data uruchomienia rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information uruchomienia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact uruchomienia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info uruchomienia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic uruchomienia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document uruchomienia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure uruchomienia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record uruchomienia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_uruchomienia.kwartał": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataUruchomienia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Kwartał"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data uruchomienia kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information uruchomienia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact uruchomienia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info uruchomienia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic uruchomienia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document uruchomienia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure uruchomienia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record uruchomienia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_uruchomienia.miesiąc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataUruchomienia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Miesiąc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data uruchomienia miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information uruchomienia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact uruchomienia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info uruchomienia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic uruchomienia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document uruchomienia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure uruchomienia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record uruchomienia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_uruchomienia.dzień": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataUruchomienia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Dzień"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data uruchomienia dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information uruchomienia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact uruchomienia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info uruchomienia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic uruchomienia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document uruchomienia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure uruchomienia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record uruchomienia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_zamkniecia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "DataZamkniecia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data zamkniecia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataZamkniecia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information zamkniecia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact zamkniecia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info zamkniecia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic zamkniecia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document zamkniecia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure zamkniecia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record zamkniecia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stacje_pomiarowe.data_zamkniecia.hierarchia_dat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataZamkniecia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarchia dat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_zamkniecia.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataZamkniecia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data zamkniecia rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information zamkniecia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact zamkniecia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info zamkniecia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic zamkniecia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document zamkniecia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure zamkniecia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record zamkniecia rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_zamkniecia.kwartał": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataZamkniecia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Kwartał"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data zamkniecia kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information zamkniecia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact zamkniecia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info zamkniecia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic zamkniecia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document zamkniecia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure zamkniecia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record zamkniecia kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_zamkniecia.miesiąc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataZamkniecia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Miesiąc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data zamkniecia miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information zamkniecia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact zamkniecia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info zamkniecia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic zamkniecia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document zamkniecia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure zamkniecia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record zamkniecia miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.data_zamkniecia.dzień": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "VariationSource": "DataZamkniecia",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Dzień"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data zamkniecia dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information zamkniecia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact zamkniecia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info zamkniecia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic zamkniecia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document zamkniecia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure zamkniecia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record zamkniecia dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.typ_stacji": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "TypStacji"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "typ stacji": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TypStacji": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.typ_obszaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "TypObszaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "typ obszaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TypObszaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.rodzaj_stacji": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "RodzajStacji"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rodzaj stacji": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RodzajStacji": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.wojewodztwo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "Wojewodztwo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wojewodztwo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.miejscowosc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "Miejscowosc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miejscowosc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.adre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "Adres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "adre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.szerokosc_geograficzna": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "SzerokoscGeograficzna"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "szerokosc geograficzna": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SzerokoscGeograficzna": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe.dlugosc_geograficzna": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StacjePomiarowe",
+			          "ConceptualProperty": "DlugoscGeograficzna"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dlugosc geograficzna": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DlugoscGeograficzna": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fakt pomiary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FaktPomiary": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.data_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "DataPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fakt_pomiary.id_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "IdPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IdPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pomiaru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.typ_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "TypPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "typ pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TypPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.wartosc_pomiaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "WartoscPomiaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wartosc pomiaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WartoscPomiaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.opis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "Opis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "opis": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.jednostka": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "Jednostka"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jednostka": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.kod_stacji": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "KodStacji"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "kod stacji": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KodStacji": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.typ_obszaru": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "TypObszaru"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "typ obszaru": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TypObszaru": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.szerokosc_geograficzna": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "SzerokoscGeograficzna"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "szerokosc geograficzna": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SzerokoscGeograficzna": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.dlugosc_geograficzna": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "DlugoscGeograficzna"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dlugosc geograficzna": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DlugoscGeograficzna": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.czy_przekroczona_norma": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "CzyPrzekroczonaNorma"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "czy przekroczona norma": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CzyPrzekroczonaNorma": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.liczba_pomiarow": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "LiczbaPomiarow"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "liczba pomiarow": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LiczbaPomiarow": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.top_10_stacje_pomiarowe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "Top10StacjePomiarowe"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 10 stacje pomiarowe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Top10StacjePomiarowe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "best 10 stacje pomiarowe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 10 stacje pomiarowe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 10 stacje pomiarowe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 10 stacje pomiarowe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 10 stacje pomiarowe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 10 stacje pomiarowe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.liczba_przekroczonych_pomiarow": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "LiczbaPrzekroczonychPomiarow"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "liczba przekroczonych pomiarow": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LiczbaPrzekroczonychPomiarow": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.srednia_wartosc_pomiary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "SredniaWartoscPomiary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "srednia wartosc pomiary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SredniaWartoscPomiary": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fakt_pomiary.liczba_przekroczen_przez_liczba_pomiarow": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaktPomiary",
+			          "ConceptualProperty": "LiczbaPrzekroczenPrzezLiczbaPomiarow"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "liczba przekroczen przez liczba pomiarow": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LiczbaPrzekroczenPrzezLiczbaPomiarow": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "%": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "stacje_pomiarowe_data_zamkniecia_kwartał_has_stacje_pomiarowe_data_zamkniecia_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia.kwartał": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.miesiąc": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_miesiącs"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_kwartał"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_are_in_kwartał3"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_zamkniecia_rok_has_stacje_pomiarowe_data_zamkniecia_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia.rok": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.rok"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.kwartał": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.rok"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "roks_have_kwartał"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_roks"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_are_in_roks3"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_zamkniecia_hierarchia_dat_has_stacje_pomiarowe_data_zamkniecia_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.dzień": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_dzień"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_zamkniecia_hierarchia_dat_has_stacje_pomiarowe_data_zamkniecia_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.miesiąc": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_miesiącs"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_zamkniecia_hierarchia_dat_has_stacje_pomiarowe_data_zamkniecia_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.kwartał": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_kwartał"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_zamkniecia_hierarchia_dat_has_stacje_pomiarowe_data_zamkniecia_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.rok": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_roks"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_zamkniecia_has_hierarchia_dat": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.hierarchia_dat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_zamkniecias_have_hierarchia_dat"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_miesiąc_has_stacje_pomiarowe_data_uruchomienia_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia.miesiąc": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.dzień": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_dzień"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.dzień"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_have_miesiącs"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.dzień"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_are_in_miesiącs2"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_kwartał_has_stacje_pomiarowe_data_uruchomienia_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia.kwartał": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.miesiąc": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_miesiącs1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_kwartał1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_are_in_kwartał2"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_rok_has_stacje_pomiarowe_data_uruchomienia_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia.rok": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.rok"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.kwartał": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.rok"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "roks_have_kwartał1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_roks1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_are_in_roks2"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_hierarchia_dat_has_stacje_pomiarowe_data_uruchomienia_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.dzień": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_dzień1"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_hierarchia_dat_has_stacje_pomiarowe_data_uruchomienia_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.miesiąc": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_miesiącs1"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_hierarchia_dat_has_stacje_pomiarowe_data_uruchomienia_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.kwartał": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_kwartał1"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_hierarchia_dat_has_stacje_pomiarowe_data_uruchomienia_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.rok": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_roks1"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_uruchomienia_has_hierarchia_dat": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_uruchomienia": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia.hierarchia_dat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_uruchomienias_have_hierarchia_dat"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_miesiąc_has_pomiary_data_pomiaru_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru.miesiąc": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.miesiąc"
+			          }
+			        },
+			        "pomiary.data_pomiaru.dzień": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_dzień1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.dzień"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_have_miesiącs1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.dzień"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_are_in_miesiącs1"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_kwartał_has_pomiary_data_pomiaru_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru.kwartał": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.kwartał"
+			          }
+			        },
+			        "pomiary.data_pomiaru.miesiąc": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.kwartał"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_miesiącs2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_kwartał2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.miesiąc"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_are_in_kwartał1"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_rok_has_pomiary_data_pomiaru_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru.rok": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.rok"
+			          }
+			        },
+			        "pomiary.data_pomiaru.kwartał": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.rok"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "roks_have_kwartał2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.kwartał"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_roks2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.kwartał"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_are_in_roks1"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_hierarchia_dat_has_pomiary_data_pomiaru_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "pomiary.data_pomiaru.dzień": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_dzień2"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_hierarchia_dat_has_pomiary_data_pomiaru_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "pomiary.data_pomiaru.miesiąc": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_miesiącs2"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_hierarchia_dat_has_pomiary_data_pomiaru_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "pomiary.data_pomiaru.kwartał": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_kwartał2"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_hierarchia_dat_has_pomiary_data_pomiaru_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "pomiary.data_pomiaru.rok": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_roks2"
+			        }
+			      ]
+			    },
+			    "pomiary_data_pomiaru_has_hierarchia_dat": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary.data_pomiaru": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru"
+			          }
+			        },
+			        "pomiary.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru.hierarchia_dat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary.data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru.hierarchia_dat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_hierarchia_dat"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_miesiąc_has_data_pomiaru_data_pomiaru_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru.miesiąc": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.miesiąc"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.dzień": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_dzień2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.dzień"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_have_miesiącs2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.dzień"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_are_in_miesiącs"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_kwartał_has_data_pomiaru_data_pomiaru_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru.kwartał": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.kwartał"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.miesiąc": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.kwartał"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_miesiącs3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_kwartał3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.miesiąc"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_are_in_kwartał"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_rok_has_data_pomiaru_data_pomiaru_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru.rok": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.rok"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.kwartał": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.rok"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "roks_have_kwartał3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.kwartał"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_roks3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.kwartał"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_are_in_roks"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_hierarchia_dat_has_data_pomiaru_data_pomiaru_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.dzień": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_dzień3"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_hierarchia_dat_has_data_pomiaru_data_pomiaru_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.miesiąc": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_miesiącs3"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_hierarchia_dat_has_data_pomiaru_data_pomiaru_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.kwartał": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_kwartał3"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_hierarchia_dat_has_data_pomiaru_data_pomiaru_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.rok": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_roks3"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_data_pomiaru_has_hierarchia_dat": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru.data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru.data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru.hierarchia_dat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_hierarchia_dat1"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_pomiary": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "pomiary": {
+			          "Target": {
+			            "Entity": "pomiary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "pomiary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_pomiaries"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pomiaries_have_fakt_pomiaries"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_data_pomiaru1": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_data_pomiarus"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_fakt_pomiaries"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_stacje_pomiarowe": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_stacje_pomiarowes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_fakt_pomiaries"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_typ_pomiaru1": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "typ_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "typ_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_typ_pomiarus"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "typ_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "typ_pomiarus_have_fakt_pomiaries"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_liczba_przekroczen_przez_liczba_pomiarow": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.liczba_przekroczen_przez_liczba_pomiarow": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.liczba_przekroczen_przez_liczba_pomiarow"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.liczba_przekroczen_przez_liczba_pomiarow"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_liczba_przekroczen_przez_liczba_pomiarow"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_srednia_wartosc_pomiary": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.srednia_wartosc_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.srednia_wartosc_pomiary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.srednia_wartosc_pomiary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_srednia_wartosc_pomiary"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_liczba_przekroczonych_pomiarow": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.liczba_przekroczonych_pomiarow": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.liczba_przekroczonych_pomiarow"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.liczba_przekroczonych_pomiarow"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_liczba_przekroczonych_pomiarow"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_top_10_stacje_pomiarowe": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.top_10_stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.top_10_stacje_pomiarowe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.top_10_stacje_pomiarowe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_top_10_stacje_pomiarowe"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_liczba_pomiarow": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.liczba_pomiarow": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.liczba_pomiarow"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.liczba_pomiarow"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_liczba_pomiarow"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_czy_przekroczona_norma": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.czy_przekroczona_norma": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.czy_przekroczona_norma"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.czy_przekroczona_norma"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_czy_przekroczona_norma"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_dlugosc_geograficzna": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.dlugosc_geograficzna": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.dlugosc_geograficzna"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.dlugosc_geograficzna"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_dlugosc_geograficznas"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_szerokosc_geograficzna": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.szerokosc_geograficzna": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.szerokosc_geograficzna"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.szerokosc_geograficzna"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_szerokosc_geograficznas"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_typ_obszaru": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.typ_obszaru": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.typ_obszaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.typ_obszaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_typ_obszarus"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_jednostka": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.jednostka": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.jednostka"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.jednostka"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_jednostkas"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_wartosc_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.wartosc_pomiaru": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.wartosc_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.wartosc_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_wartosc_pomiarus"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_typ_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.typ_pomiaru": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.typ_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.typ_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_typ_pomiarus1"
+			        }
+			      ]
+			    },
+			    "fakt_pomiary_has_data_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "FaktPomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fakt_pomiary": {
+			          "Target": {
+			            "Entity": "fakt_pomiary"
+			          }
+			        },
+			        "fakt_pomiary.data_pomiaru": {
+			          "Target": {
+			            "Entity": "fakt_pomiary.data_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fakt_pomiary"
+			            },
+			            "Object": {
+			              "Role": "fakt_pomiary.data_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fakt_pomiaries_have_data_pomiarus1"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_dlugosc_geograficzna": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.dlugosc_geograficzna": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.dlugosc_geograficzna"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.dlugosc_geograficzna"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_dlugosc_geograficznas"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_szerokosc_geograficzna": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.szerokosc_geograficzna": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.szerokosc_geograficzna"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.szerokosc_geograficzna"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_szerokosc_geograficznas"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_adre": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.adre": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.adre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.adre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_adres"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_miejscowosc": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.miejscowosc": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.miejscowosc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.miejscowosc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_miejscowoscs"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_wojewodztwo": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.wojewodztwo": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.wojewodztwo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.wojewodztwo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_wojewodztwos"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_rodzaj_stacji": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.rodzaj_stacji": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.rodzaj_stacji"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.rodzaj_stacji"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_rodzaj_stacjis"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_typ_obszaru": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.typ_obszaru": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.typ_obszaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.typ_obszaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_typ_obszarus"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_typ_stacji": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.typ_stacji": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.typ_stacji"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.typ_stacji"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_typ_stacjis"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_data_zamkniecia": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_data_zamkniecias"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_data_uruchomienia": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.data_uruchomienia": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_uruchomienia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_uruchomienia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_data_uruchomienias"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_stary_kod_stacji": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.stary_kod_stacji": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.stary_kod_stacji"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.stary_kod_stacji"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_stary_kod_stacjis"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_nazwa_stacji": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.nazwa_stacji": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.nazwa_stacji"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.nazwa_stacji"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_nazwa_stacjis"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_kod_miedzynarodowy": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.kod_miedzynarodowy": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.kod_miedzynarodowy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.kod_miedzynarodowy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_kod_miedzynarodowies"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_kod_stacji": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.kod_stacji": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.kod_stacji"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.kod_stacji"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_kod_stacjis"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_has_nr": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe"
+			          }
+			        },
+			        "stacje_pomiarowe.nr": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.nr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.nr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stacje_pomiarowes_have_nr"
+			        }
+			      ]
+			    },
+			    "pomiary_has_kod_stacji": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary": {
+			          "Target": {
+			            "Entity": "pomiary"
+			          }
+			        },
+			        "pomiary.kod_stacji": {
+			          "Target": {
+			            "Entity": "pomiary.kod_stacji"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary"
+			            },
+			            "Object": {
+			              "Role": "pomiary.kod_stacji"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pomiaries_have_kod_stacjis"
+			        }
+			      ]
+			    },
+			    "pomiary_has_wartosc_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary": {
+			          "Target": {
+			            "Entity": "pomiary"
+			          }
+			        },
+			        "pomiary.wartosc_pomiaru": {
+			          "Target": {
+			            "Entity": "pomiary.wartosc_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary"
+			            },
+			            "Object": {
+			              "Role": "pomiary.wartosc_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pomiaries_have_wartosc_pomiarus"
+			        }
+			      ]
+			    },
+			    "pomiary_has_typ_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary": {
+			          "Target": {
+			            "Entity": "pomiary"
+			          }
+			        },
+			        "pomiary.typ_pomiaru": {
+			          "Target": {
+			            "Entity": "pomiary.typ_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary"
+			            },
+			            "Object": {
+			              "Role": "pomiary.typ_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pomiaries_have_typ_pomiarus"
+			        }
+			      ]
+			    },
+			    "pomiary_has_data_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary": {
+			          "Target": {
+			            "Entity": "pomiary"
+			          }
+			        },
+			        "pomiary.data_pomiaru": {
+			          "Target": {
+			            "Entity": "pomiary.data_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary"
+			            },
+			            "Object": {
+			              "Role": "pomiary.data_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pomiaries_have_data_pomiarus"
+			        }
+			      ]
+			    },
+			    "pomiary_has_id_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "Pomiary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pomiary": {
+			          "Target": {
+			            "Entity": "pomiary"
+			          }
+			        },
+			        "pomiary.id_pomiaru": {
+			          "Target": {
+			            "Entity": "pomiary.id_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pomiary"
+			            },
+			            "Object": {
+			              "Role": "pomiary.id_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pomiaries_have_id_pomiarus"
+			        }
+			      ]
+			    },
+			    "typ_pomiaru_has_normy_WHO": {
+			      "Binding": {
+			        "ConceptualEntity": "TypPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "typ_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru"
+			          }
+			        },
+			        "typ_pomiaru.normy_WHO": {
+			          "Target": {
+			            "Entity": "typ_pomiaru.normy_WHO"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "typ_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "typ_pomiaru.normy_WHO"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "typ_pomiarus_have_normy_WHO"
+			        }
+			      ]
+			    },
+			    "typ_pomiaru_has_okres_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "TypPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "typ_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru"
+			          }
+			        },
+			        "typ_pomiaru.okres_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru.okres_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "typ_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "typ_pomiaru.okres_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "typ_pomiarus_have_okres_pomiarus"
+			        }
+			      ]
+			    },
+			    "typ_pomiaru_has_jednostka": {
+			      "Binding": {
+			        "ConceptualEntity": "TypPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "typ_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru"
+			          }
+			        },
+			        "typ_pomiaru.jednostka": {
+			          "Target": {
+			            "Entity": "typ_pomiaru.jednostka"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "typ_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "typ_pomiaru.jednostka"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "typ_pomiarus_have_jednostkas"
+			        }
+			      ]
+			    },
+			    "typ_pomiaru_has_opis": {
+			      "Binding": {
+			        "ConceptualEntity": "TypPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "typ_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru"
+			          }
+			        },
+			        "typ_pomiaru.opis": {
+			          "Target": {
+			            "Entity": "typ_pomiaru.opis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "typ_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "typ_pomiaru.opis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "typ_pomiarus_have_opises"
+			        }
+			      ]
+			    },
+			    "typ_pomiaru_has_typ_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "TypPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "typ_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru"
+			          }
+			        },
+			        "typ_pomiaru.typ_pomiaru": {
+			          "Target": {
+			            "Entity": "typ_pomiaru.typ_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "typ_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "typ_pomiaru.typ_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "typ_pomiarus_have_typ_pomiarus"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "typ_pomiaru"
+			            },
+			            "Name": {
+			              "Role": "typ_pomiaru.typ_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "typ_pomiarus_are_names_IDs_of_typ_pomiarus"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_miesiac_liczba": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.miesiac_liczba": {
+			          "Target": {
+			            "Entity": "data_pomiaru.miesiac_liczba"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.miesiac_liczba"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_miesiac_liczbas"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_kwartał_tekst": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.kwartał_tekst": {
+			          "Target": {
+			            "Entity": "data_pomiaru.kwartał_tekst"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.kwartał_tekst"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_kwartał_teksts"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_miesiac": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.miesiac": {
+			          "Target": {
+			            "Entity": "data_pomiaru.miesiac"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.miesiac"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_miesiacs"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_tydzien": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.tydzien": {
+			          "Target": {
+			            "Entity": "data_pomiaru.tydzien"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.tydzien"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_tydziens"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_kwartal": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.kwartal": {
+			          "Target": {
+			            "Entity": "data_pomiaru.kwartal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.kwartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_kwartals"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_dzien_tygodnia": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.dzien_tygodnia": {
+			          "Target": {
+			            "Entity": "data_pomiaru.dzien_tygodnia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.dzien_tygodnia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_dzien_tygodnias"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_dzien": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.dzien": {
+			          "Target": {
+			            "Entity": "data_pomiaru.dzien"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.dzien"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_dziens"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.rok": {
+			          "Target": {
+			            "Entity": "data_pomiaru.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_roks"
+			        }
+			      ]
+			    },
+			    "data_pomiaru_has_data_pomiaru": {
+			      "Binding": {
+			        "ConceptualEntity": "DataPomiaru"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru"
+			          }
+			        },
+			        "data_pomiaru.data_pomiaru": {
+			          "Target": {
+			            "Entity": "data_pomiaru.data_pomiaru"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_pomiaru"
+			            },
+			            "Object": {
+			              "Role": "data_pomiaru.data_pomiaru"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_pomiarus_have_data_pomiarus"
+			        }
+			      ]
+			    },
+			    "stacje_pomiarowe_data_zamkniecia_miesiąc_has_stacje_pomiarowe_data_zamkniecia_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "StacjePomiarowe"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stacje_pomiarowe.data_zamkniecia.miesiąc": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			          }
+			        },
+			        "stacje_pomiarowe.data_zamkniecia.dzień": {
+			          "Target": {
+			            "Entity": "stacje_pomiarowe.data_zamkniecia.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_dzień3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.dzień"
+			            },
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_have_miesiącs3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.dzień"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stacje_pomiarowe.data_zamkniecia.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_are_in_miesiącs3"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

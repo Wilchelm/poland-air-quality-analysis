@@ -1,0 +1,169 @@
+table StacjePomiarowe
+	lineageTag: baf52438-061e-4170-a65c-1ef94ad0d295
+
+	column Nr
+		dataType: int64
+		formatString: 0
+		lineageTag: 73c3ef0f-04d9-4350-90c7-a9f1bbb1a762
+		summarizeBy: sum
+		sourceColumn: Nr
+
+		annotation SummarizationSetBy = Automatic
+
+	column KodStacji
+		dataType: string
+		lineageTag: 054bc6d6-83a7-4798-a496-dda4a0090570
+		summarizeBy: none
+		sourceColumn: KodStacji
+
+		annotation SummarizationSetBy = Automatic
+
+	column KodMiedzynarodowy
+		dataType: string
+		lineageTag: 5c125e46-9657-4e07-9894-b45583c2c429
+		summarizeBy: none
+		sourceColumn: KodMiedzynarodowy
+
+		annotation SummarizationSetBy = Automatic
+
+	column NazwaStacji
+		dataType: string
+		lineageTag: 6fd74501-7c53-4b82-a811-8a2d7f9303ea
+		summarizeBy: none
+		sourceColumn: NazwaStacji
+
+		annotation SummarizationSetBy = Automatic
+
+	column StaryKodStacji
+		dataType: string
+		lineageTag: 7fc79e75-e046-4643-9e42-ce86f3dd3ec1
+		summarizeBy: none
+		sourceColumn: StaryKodStacji
+
+		annotation SummarizationSetBy = Automatic
+
+	column DataUruchomienia
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 87e1e19c-c1ac-455d-99a5-1a1f9e7f0c05
+		summarizeBy: none
+		sourceColumn: DataUruchomienia
+
+		variation Odmiana
+			isDefault
+			relationship: db0ff6b7-676d-42f9-b7d6-49cb0eeb97d9
+			defaultHierarchy: LocalDateTable_96a5f221-c6e6-4ea1-be5d-4e0c7290b2cb.'Hierarchia dat'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DataZamkniecia
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 30132ee7-28cd-46ef-a938-3c899ae4ee4b
+		summarizeBy: none
+		sourceColumn: DataZamkniecia
+
+		variation Odmiana
+			isDefault
+			relationship: 4bf78153-61d5-4090-b502-f8146fb14b19
+			defaultHierarchy: LocalDateTable_ae597791-7a0c-4c79-9964-da1de9e0c9a9.'Hierarchia dat'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TypStacji
+		dataType: string
+		lineageTag: e6676c5e-363f-4dc0-b6df-809b6e91a1f2
+		summarizeBy: none
+		sourceColumn: TypStacji
+
+		annotation SummarizationSetBy = Automatic
+
+	column TypObszaru
+		dataType: string
+		lineageTag: 6554112b-53e9-4569-9dd8-8d7acba1107f
+		summarizeBy: none
+		sourceColumn: TypObszaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column RodzajStacji
+		dataType: string
+		lineageTag: 6ff29555-b905-49c6-b24a-ce9e82c96ba6
+		summarizeBy: none
+		sourceColumn: RodzajStacji
+
+		annotation SummarizationSetBy = Automatic
+
+	column Wojewodztwo
+		dataType: string
+		lineageTag: 8d746532-b359-45cb-ad4f-ffc481e0c213
+		summarizeBy: none
+		sourceColumn: Wojewodztwo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Miejscowosc
+		dataType: string
+		lineageTag: 58aa4bae-7a5c-4262-b990-364a9f4742b0
+		summarizeBy: none
+		sourceColumn: Miejscowosc
+
+		annotation SummarizationSetBy = Automatic
+
+	column Adres
+		dataType: string
+		lineageTag: 5ee41a3a-5016-405c-8c08-80dd7a1e1245
+		summarizeBy: none
+		sourceColumn: Adres
+
+		annotation SummarizationSetBy = Automatic
+
+	column SzerokoscGeograficzna
+		dataType: double
+		lineageTag: 29d92ab9-4ec8-4075-bb19-9e83af6ca6fb
+		summarizeBy: sum
+		sourceColumn: SzerokoscGeograficzna
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DlugoscGeograficzna
+		dataType: double
+		lineageTag: 580d1a0b-d4eb-4c41-a5af-400b2db38064
+		summarizeBy: sum
+		sourceColumn: DlugoscGeograficzna
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition StacjePomiarowe = m
+		mode: import
+		source =
+				let
+				    Źródło = Csv.Document(File.Contents(FolderPath & "\Dane\Metadane oraz kody stacji i stanowisk pomiarowych.csv"),[Delimiter=";", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Nagłówki o podwyższonym poziomie" = Table.PromoteHeaders(Źródło, [PromoteAllScalars=true]),
+				    #"Zmieniono typ" = Table.TransformColumnTypes(#"Nagłówki o podwyższonym poziomie",{{"Nr", Int64.Type}, {"Kod stacji", type text}, {"Kod międzynarodowy", type text}, {"Nazwa stacji", type text}, {"Stary Kod stacji (o ile inny od aktualnego)", type text}, {"Data uruchomienia", type datetime}, {"Data zamknięcia", type text}, {"Typ stacji", type text}, {"Typ obszaru", type text}, {"Rodzaj stacji", type text}, {"Województwo", type text}, {"Miejscowość", type text}, {"ul. Adres", type text}, {"Szerokość geograficzna", type number}, {"Długość geograficzna", type number}}),
+				    #"Zamieniono wartość" = Table.ReplaceValue(#"Zmieniono typ","None",null,Replacer.ReplaceValue,{"Kod międzynarodowy"}),
+				    #"Zamieniono wartość1" = Table.ReplaceValue(#"Zamieniono wartość","None",null,Replacer.ReplaceValue,{"Nazwa stacji"}),
+				    #"Zamieniono wartość2" = Table.ReplaceValue(#"Zamieniono wartość1","None",null,Replacer.ReplaceValue,{"Stary Kod stacji (o ile inny od aktualnego)"}),
+				    #"Zamieniono wartość3" = Table.ReplaceValue(#"Zamieniono wartość2","None",null,Replacer.ReplaceValue,{"Data zamknięcia"}),
+				    #"Przefiltrowano wiersze" = Table.SelectRows(#"Zamieniono wartość3", each true),
+				    #"Zmieniono typ1" = Table.TransformColumnTypes(#"Przefiltrowano wiersze",{{"Data uruchomienia", type datetime}}),
+				    #"Zamieniono wartość4" = Table.ReplaceValue(#"Zmieniono typ1","00:00:00","",Replacer.ReplaceText,{"Data zamknięcia"}),
+				    #"Zmieniono typ2" = Table.TransformColumnTypes(#"Zamieniono wartość4",{{"Data zamknięcia", type date}, {"Data uruchomienia", type date}}),
+				    #"Zmieniono nazwy kolumn" = Table.RenameColumns(#"Zmieniono typ2",{{"ul. Adres", "Adres"}}),
+				    #"Usunięto duplikaty" = Table.Distinct(#"Zmieniono nazwy kolumn", {"Kod stacji"}),
+				    #"Zmieniono nazwy kolumn1" = Table.RenameColumns(#"Usunięto duplikaty",{{"Kod stacji", "KodStacji"}, {"Kod międzynarodowy", "KodMiedzynarodowy"}, {"Nazwa stacji", "NazwaStacji"}, {"Stary Kod stacji (o ile inny od aktualnego)", "StaryKodStacji"}, {"Data uruchomienia", "DataUruchomienia"}, {"Data zamknięcia", "DataZamkniecia"}, {"Typ stacji", "TypStacji"}, {"Typ obszaru", "TypObszaru"}, {"Rodzaj stacji", "RodzajStacji"}, {"Województwo", "Wojewodztwo"}, {"Miejscowość", "Miejscowosc"}, {"Szerokość geograficzna", "SzerokoscGeograficzna"}, {"Długość geograficzna", "DlugoscGeograficzna"}})
+				in
+				    #"Zmieniono nazwy kolumn1"
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Table
+

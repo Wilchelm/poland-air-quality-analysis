@@ -1,0 +1,27 @@
+model Model
+	culture: pl-PL
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["DataPomiaru","TypPomiaru","Pomiary","StacjePomiarowe","FaktPomiary","FolderPath"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DateTableTemplate_0716ff5b-5392-4c05-9315-201354dcbd80
+ref table DataPomiaru
+ref table TypPomiaru
+ref table LocalDateTable_52c8b5a3-bf91-4098-94d8-44ba51ca9e20
+ref table Pomiary
+ref table LocalDateTable_9926ad86-7fc2-479e-ae4d-e3941c754cfc
+ref table StacjePomiarowe
+ref table LocalDateTable_96a5f221-c6e6-4ea1-be5d-4e0c7290b2cb
+ref table LocalDateTable_ae597791-7a0c-4c79-9964-da1de9e0c9a9
+ref table FaktPomiary
+
+ref cultureInfo pl-PL
+

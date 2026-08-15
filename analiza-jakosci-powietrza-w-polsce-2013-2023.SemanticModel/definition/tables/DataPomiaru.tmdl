@@ -1,0 +1,108 @@
+table DataPomiaru
+	lineageTag: fbdd18b5-2f80-42d6-a861-a3941e0c25dd
+
+	column DataPomiaru
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 36112b0e-0fae-426c-86a5-7deb794618a8
+		summarizeBy: none
+		sourceColumn: DataPomiaru
+
+		variation Odmiana
+			isDefault
+			relationship: 79f9c1bf-c6be-42f2-acf5-cd6fa99c86e3
+			defaultHierarchy: LocalDateTable_52c8b5a3-bf91-4098-94d8-44ba51ca9e20.'Hierarchia dat'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Rok
+		dataType: int64
+		formatString: 0
+		lineageTag: e011dab4-0b25-44fb-b65f-c1b3736821f5
+		summarizeBy: sum
+		sourceColumn: Rok
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dzien
+		dataType: int64
+		formatString: 0
+		lineageTag: d650943e-69ab-4aa6-8ac1-bb001fc4f016
+		summarizeBy: sum
+		sourceColumn: Dzien
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DzienTygodnia = FORMAT(DataPomiaru[DataPomiaru],"dddd")
+		lineageTag: 093e36b2-860d-40bd-b30c-184c0e0d4839
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Kwartal = QUARTER(DataPomiaru[DataPomiaru])
+		formatString: 0
+		lineageTag: 1ef591d6-44f5-490a-81f8-1c5d112bc23c
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tydzien = WEEKNUM(DataPomiaru[DataPomiaru])
+		formatString: 0
+		lineageTag: b4959317-3df9-4eac-89fa-ab3115122687
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Miesiac = FORMAT(DataPomiaru[DataPomiaru],"mmmm")
+		lineageTag: cdf9d3ed-822f-4477-87df-81bd74995c51
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column KwartałTekst =
+			SWITCH(
+			    DataPomiaru[Kwartal],
+			    1, "I kwartał",
+			    2, "II kwartał",
+			    3, "III kwartał",
+			    4, "IV kwartał",
+			    "Nieznany kwartał"  // Wartość domyślna, jeśli kwartał nie jest 1-4
+			)
+		lineageTag: ac37b239-55d0-4811-9836-f10699f4894a
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column MiesiacLiczba = MONTH(DataPomiaru[DataPomiaru])
+		formatString: 0
+		lineageTag: 68bb56b8-569a-4617-a8e2-27239fb0d95b
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DataPomiaru = m
+		mode: import
+		source =
+				let
+				    DataPoczatkowa = #date(2010, 1, 1),  // Ustal datę początkową
+				    DataKoncowa = #date(Date.Year(DateTime.LocalNow()) + 1, 12, 31),  // Ustal datę końcową na 31 grudnia bieżącego roku + 1
+				    ListaDat = List.Dates(DataPoczatkowa, Duration.Days(DataKoncowa - DataPoczatkowa) + 1, #duration(1, 0, 0, 0)),  // Lista dat
+				    TabelaKalendarza = Table.FromList(ListaDat, Splitter.SplitByNothing(), {"Data pomiaru"}),  // Utwórz tabelę z listy dat
+				    DodaneKolumny = Table.AddColumn(TabelaKalendarza, "Rok", each Date.Year([Data pomiaru]), Int64.Type),  // Dodaj kolumnę 'Rok'
+				    DodaneKolumny2 = Table.AddColumn(DodaneKolumny, "Miesiąc", each Date.ToText([Data pomiaru], "MMMM"), type text),  // Dodaj kolumnę 'Miesiąc'
+				    DodaneKolumny3 = Table.AddColumn(DodaneKolumny2, "Dzień", each Date.Day([Data pomiaru]), Int64.Type),
+				    #"Zmieniono typ" = Table.TransformColumnTypes(DodaneKolumny3,{{"Data pomiaru", type date}}),
+				    #"Zmieniono nazwy kolumn" = Table.RenameColumns(#"Zmieniono typ",{{"Data pomiaru", "DataPomiaru"}, {"Miesiąc", "Miesiac"}, {"Dzień", "Dzien"}}),
+				    #"Dodano kolumnę niestandardową" = Table.AddColumn(#"Zmieniono nazwy kolumn", "DzienTygodnia", each Date.DayOfWeekName),
+				    #"Usunięto kolumny" = Table.RemoveColumns(#"Dodano kolumnę niestandardową",{"DzienTygodnia", "Miesiac"})
+				in
+				    #"Usunięto kolumny"
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,156 @@
+table FaktPomiary
+	lineageTag: c60d64fb-dd81-42f6-9d42-dba0f60db1b9
+
+	measure LiczbaPomiarow = COUNT(FaktPomiary[IdPomiaru])
+		formatString: 0
+		lineageTag: 3f61df9d-83fe-47cf-b4e7-2f0d9739b778
+
+	measure Top10StacjePomiarowe = ```
+			SUMX(
+			        TOPN(
+			            10, 
+			            SUMMARIZE(
+			                    FaktPomiary, 
+			                    FaktPomiary[KodStacji], 
+			                    "LiczbaPomiarow", COUNTA(FaktPomiary[KodStacji])
+			            ),
+			            [LiczbaPomiarow], DESC
+			        ),
+			        [LiczbaPomiarow]
+			)
+			```
+		formatString: 0
+		lineageTag: e674eeee-386f-466e-86fe-edb97c19bfd4
+
+	measure LiczbaPrzekroczonychPomiarow = SUM(FaktPomiary[CzyPrzekroczonaNorma])
+		formatString: 0
+		lineageTag: 107b6e99-d8e8-44f7-9b7b-8332ea69e3d6
+
+	measure SredniaWartoscPomiary = AVERAGE(FaktPomiary[WartoscPomiaru])
+		lineageTag: e536d870-d84d-487b-8f7e-e983557f325a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure LiczbaPrzekroczenPrzezLiczbaPomiarow = CALCULATE(SUM(FaktPomiary[CzyPrzekroczonaNorma])/COUNT(FaktPomiary[IdPomiaru]))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 98260c04-1a15-424f-8974-ae3c0867e7d6
+
+	column DataPomiaru
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: b109430a-1035-4777-8149-0d7de0b58200
+		summarizeBy: none
+		sourceColumn: DataPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column IdPomiaru
+		dataType: string
+		lineageTag: d0095632-47b0-4820-a84f-9fb4769480ea
+		summarizeBy: none
+		sourceColumn: IdPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column TypPomiaru
+		dataType: string
+		lineageTag: bc577536-d941-4d3e-b21e-d9c0e11fde43
+		summarizeBy: none
+		sourceColumn: TypPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column WartoscPomiaru
+		dataType: double
+		lineageTag: e19a26f4-3161-46fa-9d40-71e53fd7062b
+		summarizeBy: sum
+		sourceColumn: WartoscPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Opis
+		dataType: string
+		lineageTag: 9a8095c1-6801-4f2b-bac8-71e3c8f21d74
+		summarizeBy: none
+		sourceColumn: Opis
+
+		annotation SummarizationSetBy = Automatic
+
+	column Jednostka
+		dataType: string
+		lineageTag: f4145b1f-3085-4da5-bd22-60bb601809a8
+		summarizeBy: none
+		sourceColumn: Jednostka
+
+		annotation SummarizationSetBy = Automatic
+
+	column KodStacji
+		dataType: string
+		lineageTag: ce85fd3f-382a-4aab-a437-6739603411a2
+		summarizeBy: none
+		sourceColumn: KodStacji
+
+		annotation SummarizationSetBy = Automatic
+
+	column TypObszaru
+		dataType: string
+		lineageTag: bed92a93-921d-40f0-b7de-98912497ba13
+		summarizeBy: none
+		sourceColumn: TypObszaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column SzerokoscGeograficzna
+		dataType: double
+		lineageTag: bd1cff88-ef63-4e72-9450-eb0acee1c56d
+		summarizeBy: sum
+		sourceColumn: SzerokoscGeograficzna
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DlugoscGeograficzna
+		dataType: double
+		lineageTag: 56ea34de-6e42-4db4-b4c1-3cb6f300f482
+		summarizeBy: sum
+		sourceColumn: DlugoscGeograficzna
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CzyPrzekroczonaNorma = IF(FaktPomiary[WartoscPomiaru] > RELATED(TypPomiaru[NormyWHO]),1,0)
+		formatString: 0
+		lineageTag: 5e97be8d-7c47-467c-a6b1-d9afde4e2b02
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FaktPomiary = m
+		mode: import
+		source =
+				let
+				    Źródło = Table.NestedJoin(Pomiary, {"DataPomiaru"}, DataPomiaru, {"DataPomiaru"}, "DataPomiaru.1", JoinKind.RightOuter),
+				    #"Usunięto kolumny" = Table.RemoveColumns(Źródło,{"DataPomiaru"}),
+				    #"Rozwinięty element DataPomiaru.1" = Table.ExpandTableColumn(#"Usunięto kolumny", "DataPomiaru.1", {"DataPomiaru"}, {"DataPomiaru"}),
+				    #"Scalone zapytania" = Table.NestedJoin(#"Rozwinięty element DataPomiaru.1", {"IdPomiaru"}, Pomiary, {"IdPomiaru"}, "Pomiary", JoinKind.RightOuter),
+				    #"Scalone zapytania1" = Table.NestedJoin(#"Scalone zapytania", {"TypPomiaru"}, TypPomiaru, {"TypPomiaru"}, "TypPomiaru.1", JoinKind.LeftOuter),
+				    #"Rozwinięty element TypPomiaru.1" = Table.ExpandTableColumn(#"Scalone zapytania1", "TypPomiaru.1", {"Opis", "Jednostka"}, {"Opis", "Jednostka"}),
+				    #"Rozwinięty element Pomiary" = Table.ExpandTableColumn(#"Rozwinięty element TypPomiaru.1", "Pomiary", {"IdPomiaru", "TypPomiaru", "WartoscPomiaru"}, {"IdPomiaru.1", "TypPomiaru.1", "WartoscPomiaru.1"}),
+				    #"Scalone zapytania2" = Table.NestedJoin(#"Rozwinięty element Pomiary", {"KodStacji"}, StacjePomiarowe, {"KodStacji"}, "StacjePomiarowe", JoinKind.RightOuter),
+				    #"Usunięto kolumny1" = Table.RemoveColumns(#"Scalone zapytania2",{"IdPomiaru", "TypPomiaru", "WartoscPomiaru", "KodStacji"}),
+				    #"Zmieniono nazwy kolumn" = Table.RenameColumns(#"Usunięto kolumny1",{{"IdPomiaru.1", "IdPomiaru"}, {"TypPomiaru.1", "TypPomiaru"}, {"WartoscPomiaru.1", "WartoscPomiaru"}}),
+				    #"Rozwinięty element StacjePomiarowe" = Table.ExpandTableColumn(#"Zmieniono nazwy kolumn", "StacjePomiarowe", {"KodStacji", "TypObszaru", "SzerokoscGeograficzna", "DlugoscGeograficzna"}, {"StacjePomiarowe.KodStacji", "StacjePomiarowe.TypObszaru", "StacjePomiarowe.SzerokoscGeograficzna", "StacjePomiarowe.DlugoscGeograficzna"}),
+				    #"Zmieniono nazwy kolumn1" = Table.RenameColumns(#"Rozwinięty element StacjePomiarowe",{{"StacjePomiarowe.KodStacji", "KodStacji"}, {"StacjePomiarowe.TypObszaru", "TypObszaru"}, {"StacjePomiarowe.SzerokoscGeograficzna", "SzerokoscGeograficzna"}, {"StacjePomiarowe.DlugoscGeograficzna", "DlugoscGeograficzna"}})
+				in
+				    #"Zmieniono nazwy kolumn1"
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 346.27947785705948,
+            "y": 593.56223664262836
+          },
+          "nodeIndex": "Pomiary",
+          "nodeLineageTag": "415b9b9e-44f8-4d4c-963d-20f98061f3ed",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 349.11529491609218,
+            "y": 0
+          },
+          "nodeIndex": "DataPomiaru",
+          "nodeLineageTag": "fbdd18b5-2f80-42d6-a861-a3941e0c25dd",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 12.701606646486908,
+            "y": 295.08229138387441
+          },
+          "nodeIndex": "TypPomiaru",
+          "nodeLineageTag": "531f53a4-e23b-45ea-8e4f-698e5bd43ed9",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 665.91840582923817,
+            "y": 234.61892593338874
+          },
+          "nodeIndex": "StacjePomiarowe",
+          "nodeLineageTag": "baf52438-061e-4170-a65c-1ef94ad0d295",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 347.56540332859709,
+            "y": 236.41011842167629
+          },
+          "nodeIndex": "FaktPomiary",
+          "nodeLineageTag": "55539b2f-b435-4dab-9e88-1dab3c89fac0",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 4
+        }
+      ],
+      "name": "Wszystkie tabele",
+      "zoomValue": 83.113499571370014,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Wszystkie tabele",
+  "defaultDiagram": "Wszystkie tabele"
+}

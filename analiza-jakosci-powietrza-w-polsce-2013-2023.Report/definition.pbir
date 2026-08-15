@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../analiza-jakosci-powietrza-w-polsce-2013-2023.SemanticModel"
+    }
+  }
+}

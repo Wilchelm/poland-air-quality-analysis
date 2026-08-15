@@ -1,0 +1,70 @@
+table Pomiary
+	lineageTag: 415b9b9e-44f8-4d4c-963d-20f98061f3ed
+
+	column IdPomiaru
+		dataType: string
+		lineageTag: cac2d887-47f1-43a1-a86f-3a61e4a5d86d
+		summarizeBy: none
+		sourceColumn: IdPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column DataPomiaru
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 2bee199a-5c9f-4f5b-86bb-710d129aaa41
+		summarizeBy: none
+		sourceColumn: DataPomiaru
+
+		variation Odmiana
+			isDefault
+			relationship: 983f1474-e90d-4d7e-a601-f20d44fe9551
+			defaultHierarchy: LocalDateTable_9926ad86-7fc2-479e-ae4d-e3941c754cfc.'Hierarchia dat'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TypPomiaru
+		dataType: string
+		lineageTag: 3a902eb4-c236-4ef5-9e66-4b17becfa969
+		summarizeBy: none
+		sourceColumn: TypPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column WartoscPomiaru
+		dataType: double
+		lineageTag: 127b202c-efa0-4d3b-bee2-e5904729c7d1
+		summarizeBy: sum
+		sourceColumn: WartoscPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column KodStacji
+		dataType: string
+		lineageTag: 0131a5c8-74a5-4c44-bff5-3c25f8f5dc87
+		summarizeBy: none
+		sourceColumn: KodStacji
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Pomiary = m
+		mode: import
+		source =
+				let
+				    Źródło = Csv.Document(File.Contents(FolderPath & "\Dane\pomiary.csv"),[Delimiter=";", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Nagłówki o podwyższonym poziomie" = Table.PromoteHeaders(Źródło, [PromoteAllScalars=true]),
+				    #"Zmieniono typ" = Table.TransformColumnTypes(#"Nagłówki o podwyższonym poziomie",{{"Id pomiaru", type text}, {"Data pomiaru", type date}, {"Typ pomiaru", type text}, {"Wartość pomiaru", type number}, {"Kod stacji", type text}}),
+				    #"Zmieniono nazwy kolumn" = Table.RenameColumns(#"Zmieniono typ",{{"Wartość pomiaru", "WartoscPomiaru"}}),
+				    #"Zmieniono typ1" = Table.TransformColumnTypes(#"Zmieniono nazwy kolumn",{{"WartoscPomiaru", type number}, {"Data pomiaru", type date}}),
+				    #"Zmieniono nazwy kolumn1" = Table.RenameColumns(#"Zmieniono typ1",{{"Id pomiaru", "IdPomiaru"}, {"Data pomiaru", "DataPomiaru"}, {"Typ pomiaru", "TypPomiaru"}, {"Kod stacji", "KodStacji"}})
+				in
+				    #"Zmieniono nazwy kolumn1"
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Table
+

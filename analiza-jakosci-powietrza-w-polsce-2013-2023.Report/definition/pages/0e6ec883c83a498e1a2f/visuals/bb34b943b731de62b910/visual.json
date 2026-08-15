@@ -1,0 +1,260 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "bb34b943b731de62b910",
+  "position": {
+    "x": 884.16666666666674,
+    "y": 85.833333333333343,
+    "z": 2000,
+    "height": 395.83333333333337,
+    "width": 395.83333333333337,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FaktPomiary"
+                    }
+                  },
+                  "Property": "TypPomiaru"
+                }
+              },
+              "queryRef": "FaktPomiary.TypPomiaru",
+              "nativeQueryRef": "TypPomiaru"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FaktPomiary"
+                    }
+                  },
+                  "Property": "LiczbaPrzekroczonychPomiarow"
+                }
+              },
+              "queryRef": "FaktPomiary.LiczbaPrzekroczonychPomiarow",
+              "nativeQueryRef": "LiczbaPrzekroczonychPomiarow"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FaktPomiary"
+                    }
+                  },
+                  "Property": "LiczbaPomiarow"
+                }
+              },
+              "queryRef": "FaktPomiary.LiczbaPomiarow",
+              "nativeQueryRef": "LiczbaPomiarow"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FaktPomiary"
+                    }
+                  },
+                  "Property": "LiczbaPrzekroczenPrzezLiczbaPomiarow"
+                }
+              },
+              "queryRef": "FaktPomiary.LiczbaPrzekroczenPrzezLiczbaPomiarow",
+              "nativeQueryRef": "%",
+              "displayName": "%"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "FaktPomiary"
+                  }
+                },
+                "Property": "LiczbaPrzekroczenPrzezLiczbaPomiarow"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "79.38298393876546D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "FaktPomiary.TypPomiaru"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "140.61400929219565D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "FaktPomiary.LiczbaPrzekroczonychPomiarow"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "106.97264481268496D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "FaktPomiary.LiczbaPomiarow"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "d1562093680581b0db96",
+        "field": {
+          "Arithmetic": {
+            "Left": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "FaktPomiary"
+                  }
+                },
+                "Property": "LiczbaPrzekroczonychPomiarow"
+              }
+            },
+            "Right": {
+              "ScopedEval": {
+                "Expression": {
+                  "Measure": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "FaktPomiary"
+                      }
+                    },
+                    "Property": "LiczbaPrzekroczonychPomiarow"
+                  }
+                },
+                "Scope": []
+              }
+            },
+            "Operator": 3
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      },
+      {
+        "name": "be1be00758ba1cdefcea",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FaktPomiary"
+              }
+            },
+            "Property": "TypPomiaru"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "f",
+              "Entity": "FaktPomiary",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "f"
+                              }
+                            },
+                            "Property": "TypPomiaru"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

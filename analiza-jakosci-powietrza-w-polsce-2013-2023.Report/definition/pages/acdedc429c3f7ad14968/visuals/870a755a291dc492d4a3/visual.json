@@ -1,0 +1,140 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "870a755a291dc492d4a3",
+  "position": {
+    "x": 770.47970479704793,
+    "y": 85.904059040590411,
+    "z": 4000,
+    "height": 381.69741697416976,
+    "width": 509.2250922509225,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataPomiaru"
+                    }
+                  },
+                  "Property": "MiesiacLiczba"
+                }
+              },
+              "queryRef": "DataPomiaru.MiesiacLiczba",
+              "nativeQueryRef": "NrMiesiaca",
+              "displayName": "NrMiesiaca"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataPomiaru"
+                    }
+                  },
+                  "Property": "Miesiac"
+                }
+              },
+              "queryRef": "DataPomiaru.Miesiac",
+              "nativeQueryRef": "Miesiac"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FaktPomiary"
+                        }
+                      },
+                      "Property": "WartoscPomiaru"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Avg(FaktPomiary.WartoscPomiaru)",
+              "nativeQueryRef": "Średnia wartość pomiaru",
+              "displayName": "Średnia wartość pomiaru"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FaktPomiary"
+                        }
+                      },
+                      "Property": "WartoscPomiaru"
+                    }
+                  },
+                  "Function": 4
+                }
+              },
+              "queryRef": "Max(FaktPomiary.WartoscPomiaru)",
+              "nativeQueryRef": "Maksymalna wartość pomiaru",
+              "displayName": "Maksymalna wartość pomiaru"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DataPomiaru"
+                  }
+                },
+                "Property": "MiesiacLiczba"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "accessibility": [
+        {
+          "properties": {
+            "rowWithReferenceText": {
+              "expr": {
+                "Literal": {
+                  "Value": "''"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'AlternatingRowsNew'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

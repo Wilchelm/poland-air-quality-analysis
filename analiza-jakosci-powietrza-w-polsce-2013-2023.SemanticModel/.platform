@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "analiza-jakosci-powietrza-w-polsce-2013-2023"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f40ce88d-0c9e-4c9b-a997-1d2d49c5cec3"
+  }
+}

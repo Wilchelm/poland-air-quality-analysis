@@ -1,0 +1,64 @@
+table TypPomiaru
+	lineageTag: 531f53a4-e23b-45ea-8e4f-698e5bd43ed9
+
+	column TypPomiaru
+		dataType: string
+		lineageTag: eadc4deb-d191-4e5b-ace0-81be76eb5a2b
+		summarizeBy: none
+		sourceColumn: TypPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column Opis
+		dataType: string
+		lineageTag: 5c655d19-9f8d-4a7d-a231-592f80b8b19b
+		summarizeBy: none
+		sourceColumn: Opis
+
+		annotation SummarizationSetBy = Automatic
+
+	column Jednostka
+		dataType: string
+		lineageTag: 791f651c-651c-4643-a2ed-40cf93bc45cf
+		summarizeBy: none
+		sourceColumn: Jednostka
+
+		annotation SummarizationSetBy = Automatic
+
+	column OkresPomiaru
+		dataType: string
+		lineageTag: 7d69db67-e7f8-4143-84b5-f62ea1146c77
+		summarizeBy: none
+		sourceColumn: OkresPomiaru
+
+		annotation SummarizationSetBy = Automatic
+
+	column NormyWHO
+		dataType: double
+		lineageTag: dd0e0525-e657-439d-92d7-7791a2b817c1
+		summarizeBy: none
+		sourceColumn: NormyWHO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition TypPomiaru = m
+		mode: import
+		source =
+				let
+				    Źródło = Excel.Workbook(File.Contents(FolderPath & "\Dane\Typ_pomiary.xlsx"), null, false),
+				    #"Typ pomiaru_sheet" = Źródło{[Item="Typ pomiaru",Kind="Sheet"]}[Data],
+				    FilterNullAndWhitespace = each List.Select(_, each _ <> null and (not (_ is text) or Text.Trim(_) <> "")),
+				    #"Usunięto ostatnie wiersze" = Table.RemoveLastN(#"Typ pomiaru_sheet", each try List.IsEmpty(List.Skip(FilterNullAndWhitespace(Record.FieldValues(_)), 1)) otherwise false),
+				    #"Zmieniono typ" = Table.TransformColumnTypes(#"Usunięto ostatnie wiersze",{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}}),
+				    #"Nagłówki o podwyższonym poziomie" = Table.PromoteHeaders(#"Zmieniono typ", [PromoteAllScalars=true]),
+				    #"Zmieniono typ1" = Table.TransformColumnTypes(#"Nagłówki o podwyższonym poziomie",{{"Normy WHO", type number}}),
+				    #"Zmieniono nazwy kolumn" = Table.RenameColumns(#"Zmieniono typ1",{{"Typ pomiaru", "TypPomiaru"}, {"Czas pomiaru", "OkresPomiaru"}, {"Normy WHO", "NormyWHO"}})
+				in
+				    #"Zmieniono nazwy kolumn"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Nawigacja
+
