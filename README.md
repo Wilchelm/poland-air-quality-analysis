@@ -87,9 +87,7 @@ Kompleksowy projekt Business Intelligence i Data Engineering. Projekt obejmuje p
 
 ## Prezentacja Wideo
 
-<video src="https://raw.githubusercontent.com/Wilchelm/poland-air-quality-analysis/main/assets/demo.mp4" width="100%" controls>
-  Twoja przeglądarka nie obsługuje tagu wideo.
-</video>
+[![Watch the video](https://raw.githubusercontent.com/Wilchelm/poland-air-quality-analysis/main/assets/demo_thumbnail.jpg)](https://github.com/Wilchelm/poland-air-quality-analysis/blob/main/assets/demo.mp4)
 
 ## Kluczowe Aspekty Techniczne
 
