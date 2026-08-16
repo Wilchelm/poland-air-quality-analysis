@@ -32,3 +32,6 @@ dane/Tutaj_umiesc_pliki_ZIP_z_danymi/*
 
 *.html
 .Rhistory
+
+# Ignoruj folder z plikami multimedialnymi i jego zawartość
+assets/
