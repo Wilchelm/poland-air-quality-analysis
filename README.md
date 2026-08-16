@@ -53,23 +53,36 @@ The report is architected into three strategic analytics layers:
 
 ## Installation & Reproduction
 
-1. **Environment Setup:** Ensure Python 3.x is installed and install the required dependencies:
+### 1. Environment Setup
 
-   ```bash
-   pip install pandas openpyxl geopy
-   ```
-   
-2. **Data Sourcing:** Place the following files in the `dane` folder:
+Ensure Python 3.x is installed and install the required dependencies:
 
-   * `Metadane oraz kody stacji i stanowisk pomiarowych.xlsx` (from GIOŚ).
+```bash
+pip install pandas openpyxl geopy
+```
 
-   * ZIP archives with annual measurements in `dane\Tutaj_umiesc_pliki_ZIP_z_danymi`.
+### 2. Data Acquisition (Manual Step)
 
-3. **Execute ETL (Optional):** To see how the data is processed, run the orchestration script by double-clicking `run.cmd`.
+> **Important:** Raw data files are not included in this repository. You must download them manually from the **[GIOŚ Air Quality Bank](https://powietrze.gios.gov.pl/pjp/archives)**.
 
-4. **Load Report:** Open `analiza-jakosci-powietrza-w-polsce-2013-2023.pbip` in Power BI Desktop. The report is pre-loaded and ready for analysis.
+* **Step A:** Place `Metadane oraz kody stacji i stanowisk pomiarowych.xlsx` directly into the `dane` folder.
+* **Step B:** Place the downloaded annual measurement ZIP archives into the `dane\Tutaj_umiesc_pliki_ZIP_z_danymi` subfolder.
 
-   > **Note:** If you encounter a data source error, simply update the `FolderPath` parameter in Power Query to match your local `dane` directory path.
+### 3. Execute ETL Pipeline
+
+Navigate to the `dane` folder and run the orchestration script by double-clicking `run.cmd`. This will generate the required `.csv` files for the report.
+
+### 4. Power BI Configuration (Required to load data)
+
+Since the project uses the Power BI Project (`.pbip`) format, you must update the data source path to match your local machine.
+
+1.  Open `analiza-jakosci-powietrza-w-polsce-2013-2023.pbip` in **Power BI Desktop**.
+2.  On the **Home** tab, click the **Transform Data** dropdown and select **Edit Parameters**.
+3.  In the `FolderPath` parameter field, paste the absolute path to **main project folder** (the root folder where the `.pbip` file is located).
+    * *Example:* `C:\Users\YourName\Documents\Project`
+    * **Note:** *Do **NOT** point this to the `dane` folder. It must be the parent folder.*
+4.  Click **OK**, then click **Apply Changes**.
+5.  Click **Refresh now** to load the data into the model.
    
 ## Data Attribution & Licensing
 
@@ -119,23 +132,36 @@ Raport został zaprojektowany w trzech warstwach analitycznych:
 
 ## Instalacja i Rekonstrukcja
 
-1. **Konfiguracja Środowiska:** Upewnij się, że masz zainstalowany Python 3.x i zainstaluj wymagane biblioteki:
-   
-   ```bash
-   pip install pandas openpyxl geopy
-   ```
+### 1. Konfiguracja Środowiska
 
-2. **Przygotowanie Danych:** Umieść poniższe pliki w folderze `dane`:
+Upewnij się, że masz zainstalowany Python 3.x i zainstaluj wymagane biblioteki:
 
-   * `Metadane oraz kody stacji i stanowisk pomiarowych.xlsx` (z GIOŚ).
+```bash
+pip install pandas openpyxl geopy
+```
 
-   * Archiwa ZIP z pomiarami rocznymi w `dane\Tutaj_umiesc_pliki_ZIP_z_danymi`.
+### 2. Przygotowanie Danych
 
-3. **Uruchomienie ETL (Opcjonalnie):** Aby zobaczyć, jak dane są przetwarzane, uruchom skrypt automatyzujący, dwukrotnie klikając w `run.cmd`.
+> **Ważne:** Dane surowe nie są częścią repozytorium. Musisz pobrać je ręcznie ze strony **[Banku Danych o Jakości Powietrza GIOŚ](https://powietrze.gios.gov.pl/pjp/archives)**.
 
-4. **Eksploracja Raportu:** Otwórz `analiza-jakosci-powietrza-w-polsce-2013-2023.pbip` w Power BI Desktop. Raport jest wstępnie załadowany i gotowy do analizy.
+* **Krok A:** Umieść plik `Metadane oraz kody stacji i stanowisk pomiarowych.xlsx` bezpośrednio w folderze `dane`.
+* **Krok B:** Archiwa ZIP z pomiarami rocznymi umieść w podfolderze `dane\Tutaj_umiesc_pliki_ZIP_z_danymi`.
 
-   > **Uwaga:** Jeśli wystąpi błąd źródła danych, wystarczy zaktualizować parametr `FolderPath` w Power Query, wskazując lokalną ścieżkę do Twojego folderu `dane`.
+### 3. Uruchomienie ETL
+
+Uruchom skrypt automatyzujący, dwukrotnie klikając w `run.cmd` w folderze `dane`. Skrypt przetworzy pliki i wygeneruje niezbędne pliki `.csv`.
+
+### 4. Konfiguracja Raportu Power BI (Wymagane do załadowania danych)
+
+Ponieważ projekt korzysta z formatu (`.pbip`), musisz wskazać aktualną ścieżkę do folderu z danymi na swoim komputerze.
+
+1.  Otwórz `analiza-jakosci-powietrza-w-polsce-2013-2023.pbip` w **Power BI Desktop**.
+2.  Na karcie **Narzędzia główne** kliknij rozwijane menu **Przekształć dane** i wybierz **Edytuj parametry**.
+3.  W polu parametru `FolderPath` wklej pełną ścieżkę do **głównego folderu projektu** (tego, w którym znajduje się plik `.pbip`).
+    * *Przykład:* `C:\Users\TwojaNazwa\Documents\Projekt`
+    * **Uwaga:** *Nie wskazuj bezpośrednio folderu `dane`. Parametr musi wskazywać na folder nadrzędny.*
+4.  Kliknij **OK**, a następnie **Zastosuj zmiany**.
+5.  Kliknij **Odśwież teraz**, aby załadować dane do modelu.
    
 ## Atrybucja Danych i Licencje
 
