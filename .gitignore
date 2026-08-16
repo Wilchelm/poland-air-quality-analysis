@@ -31,3 +31,4 @@ dane/Tutaj_umiesc_pliki_ZIP_z_danymi/*
 !dane/Tutaj_umiesc_pliki_ZIP_z_danymi/.gitkeep
 
 *.html
+.Rhistory
