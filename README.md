@@ -19,9 +19,7 @@ An end-to-end, production-grade Business Intelligence & Data Engineering project
 
 > *Note: The video demonstration and the Power BI dashboard layout are presented in Polish.*
 
-<video src="https://raw.githubusercontent.com/Wilchelm/poland-air-quality-analysis/main/assets/demo.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/1a0f807e-b01c-4788-bae3-89fb1650c120
 
 ## Key Technical Highlights
 
@@ -87,7 +85,7 @@ Kompleksowy projekt Business Intelligence i Data Engineering. Projekt obejmuje p
 
 ## Prezentacja Wideo
 
-[![Watch the video](https://raw.githubusercontent.com/Wilchelm/poland-air-quality-analysis/main/assets/demo_thumbnail.jpg)](https://github.com/Wilchelm/poland-air-quality-analysis/blob/main/assets/demo.mp4)
+https://github.com/user-attachments/assets/1a0f807e-b01c-4788-bae3-89fb1650c120
 
 ## Kluczowe Aspekty Techniczne
 
