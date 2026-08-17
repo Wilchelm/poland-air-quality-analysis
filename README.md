@@ -86,9 +86,16 @@ Since the project uses the Power BI Project (`.pbip`) format, you must update th
    
 ## Data Attribution & Licensing
 
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). The full legal text is available in the LICENSE file in this repository.
+
 * **Air Quality Data:** Sourced from the official Air Quality Database (Bank Danych o Jakości Powietrza) provided by the Chief Inspectorate for Environmental Protection (GIOŚ), Poland.
 
 * **Geocoding Data:** Spatial features are mapped using the Nominatim API via `geopy`. Data © OpenStreetMap contributors (licensed under the Open Database License - ODbL).
+
+#### Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ---
 
@@ -165,6 +172,13 @@ Ponieważ projekt korzysta z formatu (`.pbip`), musisz wskazać aktualną ście�
    
 ## Atrybucja Danych i Licencje
 
+Ten projekt jest objęty licencją GNU Affero General Public License v3.0 (AGPL-3.0). Pełny tekst prawny znajduje się w pliku LICENSE w tym repozytorium.
+
 * **Dane o Jakości Powietrza:** Pochodzą z oficjalnego Banku Danych o Jakości Powietrza udostępnionego przez Główny Inspektorat Ochrony Środowiska (GIOŚ).
 
 * **Geokodowanie:** Dane przestrzenne są mapowane za pomocą API Nominatim przy użyciu biblioteki `geopy`. Dane © OpenStreetMap contributors (na licencji Open Database License - ODbL).
+
+  #### Wyłączenie Odpowiedzialności (Disclaimer)
+  
+OPROGRAMOWANIE JEST DOSTARCZANE "TAKIM, JAKIE JEST" (AS IS), BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ LUB DOROZUMIANEJ. W ŻADNYM WYPADKU AUTORZY LUB WŁAŚCICIELE PRAW AUTORSKICH NIE PONOSZĄ ODPOWIEDZIALNOŚCI Z TYTUŁU JAKICHKOLWIEK ROSZCZEŃ, SZKÓD LUB INNEJ ODPOWIEDZIALNOŚCI WYNIKAJĄCEJ Z KORZYSTANIA Z OPROGRAMOWANIA.
+
